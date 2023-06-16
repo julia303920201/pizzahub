@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet" type="text/css"> 
+    <title>PizzaHub</title>
+</head>
+<body>
+    
+    <h1>PizzaHub</h1>
+    <h2>the best pizza</h2>
+
+    <div class="first">
+        <p>Маргарита <span class="price">170 грн</span><br />
+        <small>Склад:основа, фірмовий соус, сир “Моцарелла”, спеції, помідор</small>
+        </p>
+    </div>
+
+    <div class="second">
+        <p>Сицилійська <span class="price">185 грн</span><br />
+            <small>Склад: орегано, шинка, печериці, цибуля, соус томатний, сир моцарела</small>
+        </p>
+    </div>
+
+    <div class="third">
+        <p>Пепероні <span class="price">165 грн</span><br />
+            <small>Склад: олія оливкова, соус томатний, сир моцарела, ковбаски пепероні</small>
+        </p>
+    </div>
+
+    <div class="fourth">
+        <p>Чотири сири <span class="price">205 грн</span><br />
+            <small>Склад: армезан, сир горгонзола, сир моцарела, сир едам, вершки</small>
+        </p>
+    </div>
+
+    <div class="fifth">
+        <p>Баварська <span class="price">195 грн</span><br />
+            <small>Склад: баварські ковбаски, моцарела, пармезан, спеції, соус</small>
+        </p>
+    </div>
+
+    <div class="sixth">
+        <p>Гостра Мексикано <span class="price">185 грн</span><br />
+            <small>Склад: oлія оливкова, бекон, ковбаски пепероні, цибуля, помідор, сир моцарела, куряче філе, соус барбекю, фарш яловичий, перець
+            гострий маринований</small>
+        </p>
+    </div>
+
+    <div class="seventh">
+        <p>М’ясна <span class="price">190 грн</span><br />
+            <small> Склад: орегано, олія оливкова, печериці, ковбаски мисливські, ковбаски пепероні, куряча грудинка копчена, перець болгарський,
+            свинина, соус томатний, сир моцарела</small>
+        </p>
+    </div>
+
+    <div class="eighth">
+        <p>Гавайська <span class="price">175 грн</span><br />
+            <small> Склад: олія оливкова, ананас, шинка, петрушка, соус томатний, сир моцарела, кукурудза, куряче філе</small>
+        </p>
+    </div>
+
+    <script>
+        $('div').on('click', function() {
+            $(this).toggleClass('show-description');
+        });
+    </script>
+
+</body>
+</html>
